@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Airex Resources</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="favicon.ico">
+
+<title></title>
+
+<!-- Bootstrap core CSS -->
+<link href="http://chadcrandall.com/projects/airex/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://chadcrandall.com/projects/airex/css/global.css" rel="stylesheet">
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="http://chadcrandall.com/projects/airex/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  </head>
+
+ <body class="resources">
+	<div class="container header">
+  <div class="row">
+    <div class="col-md-8">
+      <img src="http://chadcrandall.com/projects/airex/images/Airex_logo.png" class="img-responsive">
+    </div>
+    <div class="col-md-4 hidden-xs hidden-sm">
+       <ul class="topnav"><li><a href="tel:7603432277">(760) 343-2277</a></li></ul>
+    </div>
+  </div>
+</div>
+  <div class="container">
+		<div class="row">
+		  <div class="navbar-wrapper">
+		    <nav class="yamm navbar">
+		      <div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+		            <li class="active"><a href="http://chadcrandall.com/projects/airex/">Home</a></li>
+		            <li><a href="http://chadcrandall.com/projects/airex/about/">About</a></li>
+		            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Products <span class="caret"></span></a>
+		            	<div class="dropdown-menu">
+		            		<table>
+		            			<tr>
+		              			<td class="nav-cell">
+		              				<ul class="nav">
+		              					<li><a id="titan" href="#">Titan</a></li>
+		              					<li><a id="eflex" href="#">Eflex</a></li>
+		                				<li><a id="prosystem" href="#">Prosystem Kit</a></li>
+		                				<li><a id="cad-library" href="#">CAD Library</a></li>
+		              				</ul>
+		              			</td>
+		              			<td>
+				              		<div class="yamm-content" id="loadContent">
+				              			<div class="inner">
+				              				<h3>Titan</h3>
+															<img src="http://placehold.it/100x100">
+															<div>The Titan Outlet is the industry leader in rodent proofing, vibration control, and pipe isolation. It is engineered to be a professional grade, weather resistant, wall enclosure that fits over and seals around wall surface penetrations.</div>
+				              			</div>
+				              		</div>
+				              	</td>
+		              		</tr>
+		                </table>
+		              </div>
+		            </li>
+		            <li><a href="http://chadcrandall.com/projects/airex/why/">Why Airex?</a></li>
+		            <li><a href="http://chadcrandall.com/projects/airex/contact/">Contact Us</a></li>
+		            <li><a href="http://chadcrandall.com/projects/airex/cad-library/">CAD Library</a></li>
+		            <li><a href="http://chadcrandall.com/projects/airex/resources/">Resources</a></li>
+		          </ul>
+		        </div>
+		      </div>
+		    </nav>
+		  </div>
+	</div>
+</div>
+	<div class="container">
+	<div class="row">
+		<h1>Resources</h1>
+	</div>
+</div>
+	<div class="container">
+	<div class="row">
+		<footer class="footer">
+	    <div class="footer-links clearfix">
+	      <div class="col-lg-2 col-md-2 col-sm-2">
+	        <ul class="list-unstyled">
+	          <li class="heading"><a href="#">About</a></li>
+	          <li><a href="#">History</a></li>
+	          <li><a href="#">Mission</a></li>
+	        </ul>
+	      </div>
+	      <div class="col-lg-2 col-md-2 col-sm-2">
+	        <ul class="list-unstyled">
+	          <li class="heading"><a href="#">Products</a></li>
+	          <li><a href="#">Titan</a></li>
+	          <li><a href="#">Eflex</a></li>
+	          <li><a href="#">Prosystem Kit</a></li>
+	          <li><a href="#">CAD Library</a></li>
+	        </ul>
+	      </div>
+	      <div class="col-lg-2 col-md-2 col-sm-2">
+	        <ul class="list-unstyled">
+	          <li class="heading"><a href="#">Why Airex?</a></li>
+	          <li><a href="#">How it Works</a></li>
+	          <li><a href="#">Patents / Guarantees</a></li>
+	          <li><a href="#">Distributors</a></li>
+	        </ul>
+	      </div>
+	      <div class="col-lg-2 col-md-2 col-sm-2">
+	        <ul class="list-unstyled last">
+	          <li class="heading"><a href="contact-us">Contact Us</a></li>
+	        </ul>
+	      </div>
+	      <div class="col-lg-4 col-md-4 col-sm-4">
+	        <ul class="list-unstyled last address">
+	          <li>Airex Manufacturing Inc.</li>
+	          <li>72170 Dnham Way, Suite D</li>
+	          <li>Thousand Palms, CA 92276</li>
+	          <li>p: (760) 343-2277</li>
+	          <li>f: (760) 343-5599</li>
+	          <li><a href="mailto:customerservice@airexmfg.com">customerservice@airexmfg.com</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	   </footer>
+	</div>
+	</div>
+    <script src="http://chadcrandall.com/projects/airex/js/jquery.min.js"></script>
+    <script src="http://chadcrandall.com/projects/airex/js/bootstrap.min.js"></script>
+    <script src="http://chadcrandall.com/projects/airex/js/main.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://chadcrandall.com/projects/airex/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

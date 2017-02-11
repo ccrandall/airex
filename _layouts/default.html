@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+
+ <body class="{{page.class}}">
+	{% include header.html %}
+  <div class="container">
+		<div class="row">
+		  <div class="navbar-wrapper">
+		    <nav class="yamm navbar">
+		      <div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+		            <li class="active"><a href="{% link index.html %}">Home</a></li>
+		            <li><a href="{% link about.html %}">About</a></li>
+		            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Products <span class="caret"></span></a>
+		            	<div class="dropdown-menu">
+		            		<table>
+		            			<tr>
+		              			<td class="nav-cell">
+		              				<ul class="nav">
+		              					<li><a id="titan" href="#">Titan</a></li>
+		              					<li><a id="eflex" href="#">Eflex</a></li>
+		                				<li><a id="prosystem" href="#">Prosystem Kit</a></li>
+		                				<li><a id="cad-library" href="#">CAD Library</a></li>
+		              				</ul>
+		              			</td>
+		              			<td>
+				              		<div class="yamm-content" id="loadContent">
+				              			<div class="inner">
+				              				<h3>Titan</h3>
+															<img src="http://placehold.it/100x100">
+															<div>The Titan Outlet is the industry leader in rodent proofing, vibration control, and pipe isolation. It is engineered to be a professional grade, weather resistant, wall enclosure that fits over and seals around wall surface penetrations.</div>
+				              			</div>
+				              		</div>
+				              	</td>
+		              		</tr>
+		                </table>
+		              </div>
+		            </li>
+		            <li><a href="{% link why.html %}">Why Airex?</a></li>
+		            <li><a href="{% link contact.html %}">Contact Us</a></li>
+		            <li><a href="{% link cad-library.html %}">CAD Library</a></li>
+		            <li><a href="{% link resources.html %}">Resources</a></li>
+		          </ul>
+		        </div>
+		      </div>
+		    </nav>
+		  </div>
+	</div>
+</div>
+	{{ content }}
+	{% include footer.html %}
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
